@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
  * redis项目
  */
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "bins.springboot.redis")
 public class RedisApplication {
 
     public static void main(String[] args) {
